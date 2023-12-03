@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="tela">
+            <div class="tela_numeros">
+                
+            </div>
+        </div>
+        <div class="teclado">
+            <button onclick="C()">CE</button>
+            <button onclick="parenteses()">()</button>
+            <button>%</button>
+            <button onclick="divisao()">/</button>
+            <button onclick="sete()">7</button>
+            <button onclick="oito()">8</button>
+            <button onclick="nove()">9</button>
+            <button onclick="vezes()">X</button>
+            <button onclick="quatro()">4</button>
+            <button onclick="cinco()">5</button>
+            <button onclick="seis()">6</button>
+            <button onclick="subtracao()">-</button>
+            <button onclick="um()">1</button>
+            <button onclick="dois()">2</button>
+            <button onclick="tres()">3</button>
+            <button onclick="soma()">+</button>
+            <button onclick="troca_sinal()">+/-</button>
+            <button onclick="zero()">0</button>
+            <button onclick="ponto()">.</button>
+            <button onclick="igual()">=</button>
+        </div>
+    </div>
+</body>
+<script>
+    var display = document.getElementsByClassName('tela_numeros')[0];
+    var tela = parseFloat(display.textContent);
+    var numero_1 = parseInt(1);
+    var numero_2 = parseInt(2);
+    var numero_3 = parseInt(3);
+    var numero_4 = parseInt(4);
+    var numero_5 = parseInt(5);
+    var numero_6 = parseInt(6);
+    var numero_7 = parseInt(7);
+    var numero_8 = parseInt(8);
+    var numero_9 = parseInt(9);
+    var numero_0 = parseInt(0);
+
+    function um() {
+        display.textContent = display.textContent + '1';
+    }
+
+    function dois() {
+        display.textContent = display.textContent + '2';
+    }
+
+    function tres() {
+        display.textContent = display.textContent + '3';
+    }
+
+    function quatro() {
+        display.textContent = display.textContent + '4';
+    }
+
+    function cinco() {
+        display.textContent = display.textContent + '5';
+    }
+
+    function seis() {
+        display.textContent = display.textContent + '6';
+    }
+
+    function sete() {
+        display.textContent = display.textContent + '7';
+    }
+
+    function oito() {
+        display.textContent = display.textContent + '8';
+    }
+
+    function nove() {
+        display.textContent = display.textContent + '9';
+    }
+
+    function zero() {
+        display.textContent = display.textContent + '0';
+    }
+
+    function soma() {
+        display.textContent = display.textContent + ' + ';
+    }
+    
+    function subtracao() {
+        display.textContent = display.textContent + ' - ';
+    }
+
+    function divisao() {
+        display.textContent = display.textContent + ' / ';
+    }
+
+    function vezes() {
+        display.textContent = display.textContent + ' * ';
+    }
+
+    function igual(){
+        display.textContent = eval(display.textContent);
+    }
+
+    function ponto() {
+        display.textContent = display.textContent + '.';
+    }
+
+    function C() {
+        display.textContent = '';
+    }
+
+    function troca_sinal() {
+        if (parseFloat(display.textContent) < 0) {
+            display.textContent = eval(-display.textContent);
+        } else {
+            display.textContent = '-' + display.textContent;
+        }
+    }
+
+
+</script>
+</html>

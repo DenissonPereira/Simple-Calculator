@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 25em;
+    height: 50em;
+}
+.teclado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teclado button {
+    width: 7em;
+    height: 7em;
+}
+
+.tela_numeros {
+    color: aliceblue;
+    margin-bottom: 3em;
+    font-size: 3em;
+}
