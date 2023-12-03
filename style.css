@@ -10,22 +10,23 @@ body {
     flex-direction: column;
     align-items: end;
     justify-content: center;
+    align-items: center;
+    border-radius: 1em;
     width: 25em;
     height: 50em;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
 }
 
 .teclado {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     background-color: #A9C9FF;
     background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
-    padding-bottom: 1em;
-    padding-top: 1em;
-    border-radius: 0em 0em 1em 1em;
 }
 
 .teclado button {
@@ -53,7 +54,9 @@ body {
     justify-content: end;
     width: 25em;
     height: 13em;
-    background-color: #A9C9FF;
-    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
-    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.137), #ffffff10);
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
 }
