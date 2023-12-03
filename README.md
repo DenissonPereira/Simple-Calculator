@@ -12,6 +12,8 @@ Convidamos você a explorar a aplicação **Simple-Calculator** em sua versão o
 
 O **Simple-Calculator** é uma simples aplicação de calculadora desenvolvida em JavaScript, oferecendo funcionalidades básicas de cálculos matemáticos. Com uma interface amigável e intuitiva, permite que os usuários realizem operações de adição, subtração, multiplicação e divisão de maneira rápida e eficiente. Uma ferramenta prática para cálculos do dia a dia.
 
+# Preview
+
 ## Layout web
 ![Web 1](./public/web_version.png) 
 
