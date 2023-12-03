@@ -6,26 +6,53 @@ body {
 }
 
 .calculadora {
-    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: center;
     width: 25em;
     height: 50em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .teclado {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-radius: 0em 0em 1em 1em;
 }
+
 .teclado button {
     width: 7em;
     height: 7em;
+    background-color: rgba(255, 255, 255, 0.205);
+    border: none;
+    cursor: pointer;
+}
+
+.teclado button:hover {
+    border: 2px solid black;
+    box-shadow: 1px 1px 10px black;
 }
 
 .tela_numeros {
     color: aliceblue;
     margin-bottom: 3em;
     font-size: 3em;
+}
+
+.tela {
+    display: flex;
+    justify-content: end;
+    width: 25em;
+    height: 13em;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.137), #ffffff10);
 }
