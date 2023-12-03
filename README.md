@@ -6,7 +6,7 @@
 
 Convidamos você a explorar a aplicação **Simple-Calculator** em sua versão online: 
 
-[![NPM](https://img.shields.io/badge/Clique%20Aqui-8A2BE2)](https://denissonpereira.github.io/Calculadora/)
+[![NPM](https://img.shields.io/badge/Clique%20Aqui-8A2BE2)](https://denissonpereira.github.io/Simple-Calculator/)
 
 # Sobre o projeto
 
