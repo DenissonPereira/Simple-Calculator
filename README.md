@@ -16,7 +16,7 @@ O **Simple-Calculator** é uma simples aplicação de calculadora desenvolvida e
 ![Web 1](./public/web_version.png) 
 
 ## Layout mobile
-![Mobile 1](./public/mob1.jpg) ![Mobile 2](./public/mob2.jpg)
+![Mobile 1](./public/mob_version.gif) 
 
 # Tecnologias utilizadas
 
