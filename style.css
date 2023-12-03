@@ -13,7 +13,7 @@ body {
     align-items: center;
     border-radius: 1em;
     width: 25em;
-    height: 50em;
+    height: 40em;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,7 +53,7 @@ body {
     display: flex;
     justify-content: end;
     width: 25em;
-    height: 13em;
+    height: 10em;
 }
 
 .linha {
