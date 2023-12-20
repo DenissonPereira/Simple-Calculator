@@ -20,7 +20,7 @@ Dê uma espiada nas imagens abaixo para ter uma prévia visual do projeto em aç
 ![Web 1](./public/web_version.png) 
 
 ### 📱 Layout mobile
-![Mobile 1](./public/mob_version.gif) ![Mobile 2](./public/mob2.jpeg) 
+![Mobile 1](./public/mob_version.gif) 
 
 ## 📚 Stack Tecnológica
 
